@@ -1,0 +1,4 @@
+[submodule "nuklear-c/nuklear"]
+	path = nuklear-c/nuklear
+	url = https://github.com/varphone/Nuklear.git
+	branch = release/v4.6.0-nuki
