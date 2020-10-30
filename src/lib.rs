@@ -140,6 +140,11 @@ impl nk_color {
             a: self.a,
         }
     }
+
+    #[inline]
+    pub fn rgb_f(r: f32, g: f32, b: f32) -> Self {
+        unsafe { nk_rgb_f(r, g, b) }
+    }
 }
 #[test]
 fn bindgen_test_layout_nk_color() {
