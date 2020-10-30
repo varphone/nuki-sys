@@ -58,7 +58,7 @@ pub const nk_false: _bindgen_ty_1 = 0;
 pub const nk_true: _bindgen_ty_1 = 1;
 pub type _bindgen_ty_1 = u32;
 #[repr(C)]
-#[derive(Debug, Default, Copy, Clone)]
+#[derive(Debug, Default, Copy, Clone, PartialEq, Eq)]
 pub struct nk_color {
     pub r: nk_byte,
     pub g: nk_byte,
